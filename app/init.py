@@ -43,7 +43,7 @@ class PatientRegistry:
         return list(self._patients)
 
 patient_registry = PatientRegistry()
-
+#działaj
 
 class PatientFormView(MethodView):
     def get(self):
