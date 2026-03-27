@@ -59,7 +59,7 @@ class PatientFormView(MethodView):
             wait_time=round(wait_time, 1),
             error=None
         )
-
+#proba
     def post(self):
         first_name = request.form.get("first_name", "")
         last_name = request.form.get("last_name", "")
